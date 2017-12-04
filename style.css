@@ -1,0 +1,76 @@
+body{
+	width: 80%;
+	margin: 0 auto;
+}
+header{
+	background: -webkit-linear-gradient(#ffffff, #595959);
+	border-radius: 50px 50px 0 0;
+}
+img#logo{
+	position: relative;
+	margin-left: 75%;
+	margin-top: 1%;
+	width: 250px;
+
+}
+a{
+	color: inherit;
+	text-decoration:none;   
+}
+div#cuerpo{
+	border: 1px solid red;
+	height: 80%;
+}
+div#menu{
+	border-style: dotted solid solid  solid;
+	border-color: #595959;
+	border-radius: 10px;
+	height: 50%;
+	width: 20%;
+	margin-left: 79%;
+	margin-top: 0.5%;
+}
+#menu ul, li{
+	list-style: none;
+	padding: 15px;
+}
+
+#menu ul li{
+
+	border-style: inset solid  solid inset;
+	border-radius: 10px;
+	font-size: 150%;
+	text-align: center;
+	
+}
+#menu ul li:hover{
+	border-color:orange;
+	border-style: inset solid  solid inset;
+	border-radius: 10px;
+	font-size: 150%;
+	text-align: center;
+	
+}
+
+div#principal{
+	border: 1px solid green;
+	width: 73%;
+	height: 95%;
+	margin-top: -26.5%;
+	margin-left: 3%;	
+}
+h3{
+	font-size: 200%;
+	font-family: "Arial Black", Gadget, sans-serif;
+	
+}
+img#ej1{
+	height: 150px;
+	margin-left: 50%;
+}
+p{
+	text-align: justify;
+	
+}
+
+
