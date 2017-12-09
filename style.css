@@ -8,7 +8,7 @@ header{
 }
 img#logo{
 	position: relative;
-	margin-left: 75%;
+	margin-left: 74%;
 	margin-top: 1%;
 	width: 250px;
 
@@ -18,24 +18,25 @@ a{
 	text-decoration:none;   
 }
 div#cuerpo{
-	border: 1px solid red;
-	height: 80%;
+	background-image: url('imagenes/fondo1.png');
+	background-size: 970px;
+	background-repeat: no-repeat;
 }
 div#menu{
 	border-style: dotted solid solid  solid;
 	border-color: #595959;
 	border-radius: 10px;
 	height: 50%;
-	width: 20%;
-	margin-left: 79%;
+	width: 25%;
+	margin-left: 75%;
 	margin-top: 0.5%;
 }
-#menu ul, li{
-	list-style: none;
+#menu ul, li.nivel1{
+	list-style-type: none;
 	padding: 15px;
 }
 
-#menu ul li{
+#menu ul li.nivel1{
 
 	border-style: inset solid  solid inset;
 	border-radius: 10px;
@@ -43,21 +44,39 @@ div#menu{
 	text-align: center;
 	
 }
-#menu ul li:hover{
+#menu ul li.nivel1 ul{
+	display:none;
+}
+
+#menu ul li.nivel1:hover{
 	border-color:orange;
+	background: rgba(255, 230, 204, 1);
 	border-style: inset solid  solid inset;
 	border-radius: 10px;
 	font-size: 150%;
 	text-align: center;
-	
-}
 
+}
+#menu ul li.nivel1 ul.nivel2 li{
+	border-color:orange;
+	background: rgba(255, 168, 77, 0.5);
+	border-style: inset solid  solid inset;
+	font-size: 75%;
+	margin-top: 15px;
+	margin-left: -25px;
+	width:130%;
+	list-style-type:circle;
+}
+#menu ul li.nivel1:hover ul.nivel2 {
+	display:block;
+}
+		
 div#principal{
-	border: 1px solid green;
-	width: 73%;
-	height: 95%;
-	margin-top: -26.5%;
-	margin-left: 3%;	
+	background-color:rgba(250, 250, 250, 0.7);
+	width: 66%;
+	font-weight:bold;
+	margin-top: -45%;
+	margin-left: 8%;	
 }
 h3{
 	font-size: 200%;
@@ -65,12 +84,45 @@ h3{
 	
 }
 img#ej1{
-	height: 150px;
-	margin-left: 50%;
+	margin-left: 36%;
+	margin-top: -15px;
+	height: 34%;
+	width: 60%;
+
 }
 p{
 	text-align: justify;
 	
 }
+span{
+	display:block;
+	text-align:center;
+}
+.imag1,.imag2{
+	
+	width: 350px;
+	height: 260px;
+}
+.imag1{
+	margin-left: 20px;
+}
+.imag2{
+	margin-left: 270px;
+}
+img.ejempl,.ejempl2{
+	width: 160px;
+	height: 160px;
+	border: 1px solid black;
+}
+.ejempl{
+	margin-left: 240px;
+}
+.ejempl2{
+	margin-left: 20px;
+}
 
-
+iframe{
+	width: 420px;
+	height: 360px;
+	margin-left: 100px;
+}
